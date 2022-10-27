@@ -1,0 +1,148 @@
+body {
+    margin: 0%;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+    font-weight: 100px;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 65px;
+    font-weight: 200;
+}
+
+h2 {
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+    font-size: 20px;
+    font-weight: 200;
+    width: 40%;
+    margin: auto;
+}
+
+h4 {
+    font-family: Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(177, 177, 177);
+}
+
+h6 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    color: rgb(177, 177, 177);
+}
+
+section {
+    width: 60%;
+    margin: auto;
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+p {
+    padding-left: 18%;
+    padding-right: 18%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+footer {
+    width: 40%;
+    margin: auto;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+a:visited {
+    color: black;
+}
+
+.capitular {
+   float:left;
+   font-weight: 900;
+   font-size:200px;
+   line-height:150px;
+   margin-right: 5px;
+   margin-bottom: 5px;
+   padding-bottom: 2px;
+}
+
+.imgs {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.listas {
+    padding-left: 18%;
+    padding-right: 18%;
+}
+
+.barra2 {
+    color: aqua;
+}
+
+.negrita {
+    font-weight: 500;
+}
+
+#barra {
+    padding: 1%;
+    margin: 0;
+    height: 35px;
+    background-color: #003245;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+}
+
+#img1 {
+    width: 100%;
+    max-height: auto;   
+}
+
+#img2 {
+    width: 100%;
+    margin-top: 20px;
+}
+
+#barra1 {
+    width: 30%;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#img3 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+#img4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
