@@ -1,0 +1,25 @@
+body {
+    background-color:  #13321c;
+}
+
+section {
+    padding: 50px;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    height: 310px;
+    margin: 5px;
+    flex-wrap:nowrap;
+    border-radius: 6px;
+    filter: blur(1px);
+}
+
+.galeria img:hover {
+    filter: none;
+}
