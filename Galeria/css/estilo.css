@@ -6,6 +6,23 @@ section {
     padding: 50px;
 }
 
+p {
+    color: rgb(169, 150, 42);
+    font-family: 'Playfair Display', serif;
+    font-size: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 90px;
+}
+
+h6 {
+    font-family: 'Raleway', sans-serif;
+    color: blanchedalmond;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
 .galeria {
     display: flex;
     justify-content: center;
