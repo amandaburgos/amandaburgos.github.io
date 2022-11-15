@@ -22,6 +22,8 @@ body.lb-disable-scrolling {
   line-height: 0;
   font-weight: normal;
   outline: none;
+  font-family: 'Raleway', sans-serif;
+  color: blanchedalmond;
 }
 
 .lightbox .lb-image {
@@ -32,7 +34,7 @@ body.lb-disable-scrolling {
   border-radius: 3px;
 
   /* Image border */
-  border: 4px solid white;
+  border: 6px solid antiquewhite;
 }
 
 .lightbox a img {
@@ -49,7 +51,7 @@ body.lb-disable-scrolling {
 
   /* Background color behind image.
      This is visible during transitions. */
-  background-color: white;
+  background-color: antiquewhite;
 }
 
 .lb-outerContainer:after {
