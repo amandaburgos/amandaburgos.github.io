@@ -87,17 +87,10 @@ main {
     height: 15px;
 }
 
-.end {
-    font-weight: lighter;
-    display: flex;
-    justify-content: center;
-}
-
 .proyectos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 100px;
     margin: 30px;
 }
 
@@ -111,5 +104,12 @@ main {
 
 footer {
     display: block;
+}
+
+.end {
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 
