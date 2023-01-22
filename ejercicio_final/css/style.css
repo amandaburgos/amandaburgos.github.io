@@ -66,6 +66,7 @@ li a:hover {
 
 main {
     padding-top: 40px;
+    display: block;
 }
 
 #cabecera { 
@@ -86,23 +87,29 @@ main {
     height: 15px;
 }
 
-#end {
+.end {
     font-weight: lighter;
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
 }
 
 .proyectos {
     display: flex;
-    justify-content: space-between;
-    height: 450px;
-    margin: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100px;
+    margin: 30px;
 }
 
 .proyectos img {
     border-radius:10px;
+    width: 40vw;
+    padding: 20px;
 }
 
+/* estilo footer */
 
+footer {
+    display: block;
+}
 
