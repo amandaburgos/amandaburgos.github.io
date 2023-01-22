@@ -1,8 +1,7 @@
-
 /* estilo general de la página */
 
 body {
-    background-color: #f9f8f5;
+    background-color: #e0ade2;
     font-family: 'DM Sans', sans-serif;
     color: #0b25e8;
 }
@@ -16,7 +15,7 @@ body {
     border-radius: 10px;
   }
 
-/* estilo encabezado */
+  /* estilo encabezado */
 
 header {
     padding: 17px;
@@ -49,7 +48,7 @@ li a:hover {
     color: #e6642a;
 }
 
-#work {
+#info {
     text-decoration: underline;
 }
 
@@ -64,23 +63,29 @@ li a:hover {
 
 /* estilo main */
 
-.proyectos {
+main {
+    padding: 30px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 90vw;
-    margin: 5vw;
+    justify-content: space-evenly;
+    margin: 30px;
+
 }
 
-.proyectos img {
-    border-radius:30px;
-    width: 42vmax;
-    padding: 10px;
-    transition: transform .2s
+h3 {
+    width: 40%;
+    font-weight: lighter;
 }
 
-.proyectos img:hover {
-    -ms-transform: scale(1.1); 
-    -webkit-transform: scale(1.1); 
-    transform: scale(1.1); 
+#flor {
+    width: 15%;
+    animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
