@@ -1,5 +1,5 @@
 body {
-    background-color:  #13321c;
+    background-color: #13321c;
 }
 
 section {
@@ -17,10 +17,48 @@ p {
 
 h6 {
     font-family: 'Raleway', sans-serif;
+    font-weight: 200;
     color: blanchedalmond;
     font-size: 20px;
     text-align: center;
     letter-spacing: 3px;
+}
+
+.fotos {
+    display: flex;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.text {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+    filter: none;
+}
+
+.container {
+    position: relative;
 }
 
 #icon {
@@ -40,11 +78,12 @@ h6 {
 .galeria img {
     height: 310px;
     margin: 5px;
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     border-radius: 6px;
     filter: blur(1px) grayscale(100%);
 }
 
 .galeria img:hover {
-    filter: none;
+    filter: blur(0) grayscale(40%);
+
 }
