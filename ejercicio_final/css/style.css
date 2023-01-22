@@ -90,13 +90,14 @@ main {
 .proyectos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 30px;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 5vw;
 }
 
 .proyectos img {
     border-radius:10px;
-    width: 40vw;
+    width: 42vmax;
     padding: 20px;
 }
 
