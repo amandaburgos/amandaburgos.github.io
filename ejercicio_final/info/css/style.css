@@ -78,9 +78,13 @@ h3 {
 }
 
 #flor {
-    width: 15%;
     animation: rotation 4s infinite linear;
 }
+
+#flor img {
+    width: 100%;
+}
+
 
 @keyframes rotation {
     from {
@@ -90,3 +94,48 @@ h3 {
         transform: rotate(359deg);
     }
 }
+
+/* media query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #flor {
+        width: 50%;
+        height: 55%;
+    }
+    h3 {
+        width: 100%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    #flor {
+        width: 20%;
+        height: 25%;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    #flor {
+        width: 20%;
+        height: 25%;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    #flor {
+        width: 20%;
+        height: 25%;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    #flor {
+        width: 20%;
+        height: 25%;
+    }
+  }
