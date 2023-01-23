@@ -141,6 +141,9 @@ footer {
     #cabecera {
         width: 90%;
     }
+    .proyectos {
+        justify-content: center;
+    }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -154,6 +157,9 @@ footer {
     #cabecera {
         width: 80%;
     }
+    .proyectos {
+        justify-content: center;
+    }
   }
   
   /* Medium devices (landscape tablets, 768px and up) */
@@ -166,6 +172,9 @@ footer {
     }
     .rrss {
         display: inline;
+    }
+    .proyectos {
+        justify-content: center;
     }
   } 
   

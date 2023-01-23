@@ -84,3 +84,67 @@ li a:hover {
     -webkit-transform: scale(1.1); 
     transform: scale(1.1); 
 }
+
+/* media query */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #logo {
+        width: 50%;
+        margin-left: 70px;
+    }
+    .rrss {
+        display: none;
+    }
+    .proyectos {
+        justify-content: center;
+        width: 100%;
+    }
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    #logo {
+        width: 40%;
+    }
+    .rrss {
+        display: none;
+    }
+    .proyectos {
+        justify-content: center;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    #logo {
+        width: 35%;
+    }
+    .rrss {
+        display: inline;
+    }
+    .proyectos {
+        justify-content: center;
+    }
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+   
+    #logo {
+        width: 25%;
+    }
+    .rrss {
+        display: inline;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    #logo {
+        width: 25%;
+    }
+    .rrss {
+        display: inline;
+    }
+  }

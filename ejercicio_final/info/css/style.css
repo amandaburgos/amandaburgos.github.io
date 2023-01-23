@@ -106,6 +106,13 @@ h3 {
     h3 {
         width: 100%;
     }
+    #logo {
+        width: 50%;
+        margin-left: 70px;
+    }
+    .rrss {
+        display: none;
+    }
   }
   
   /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -113,6 +120,12 @@ h3 {
     #flor {
         width: 30%;
         height: 35%;
+    }
+    #logo {
+        width: 40%;
+    }
+    .rrss {
+        display: none;
     }
   }
   
@@ -122,6 +135,13 @@ h3 {
         width: 20%;
         height: 25%;
     }
+    #logo {
+        width: 35%;
+    }
+    .rrss {
+        display: inline;
+    }
+
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
@@ -130,6 +150,12 @@ h3 {
         width: 20%;
         height: 25%;
     }
+    #logo {
+        width: 25%;
+    }
+    .rrss {
+        display: inline;
+    }
   } 
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -137,5 +163,11 @@ h3 {
     #flor {
         width: 20%;
         height: 25%;
+    }
+    #logo {
+        width: 25%;
+    }
+    .rrss {
+        display: inline;
     }
   }
