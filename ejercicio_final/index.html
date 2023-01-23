@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript">
-   $(document).ready(function(){
-   $('body').hide();
-   $('body').fadeIn(2000);
-   });
-   </script>
+        $(document).ready(function () {
+            $('body').hide();
+            $('body').fadeIn(2000);
+        });
+    </script>
     <link rel="stylesheet" href="css/style.css">
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
@@ -32,8 +32,10 @@
         <img id="logo" src="img/amanda.png" alt="logo">
 
         <ul>
-            <li><a href="https://www.behance.net/amandaburgos3"><img class="rrss" src="img/behance.png" alt="behance"></a> </li>
-            <li><a href="https://www.instagram.com/amand4.png/"> <img class="rrss" src="img/ig.png" alt="instagram"></a></li>
+            <li><a href="https://www.behance.net/amandaburgos3"><img class="rrss" src="img/behance.png"
+                        alt="behance"></a> </li>
+            <li><a href="https://www.instagram.com/amand4.png/"> <img class="rrss" src="img/ig.png" alt="instagram"></a>
+            </li>
             <li><a href="mailto:amandaburgos@alu.easda.es"> <img class="rrss" src="img/gmail.png" alt="correo"></a></li>
         </ul>
 
@@ -48,12 +50,26 @@
             </span>
         </span>
         <div class="proyectos">
-            <img src="img/revuelta.png" alt="revuelta">
-            <img src="img/lasazonada.png" alt="lasazonada">
-            <img src="img/creta.png" alt="creta">
-            <img src="img/cartel.png" alt="cartel">
+            <div class="grupo">
+                <div class="visible"><img src="img/revuelta.png" alt="revuelta"></div>
+                <div class="oculta"><img src="img/revuelta2.png" alt="revuelta2"> </div>
+            </div>
+            <div class="grupo">
+                <div class="visible"><img src="img/lasazonada.png" alt="lasazonada"></div>
+                <div class="oculta"><img src="img/lasazonada2.png" alt="lasazonada2"> </div>
+            </div>
+            <div class="grupo">
+                <div class="visible"><img src="img/ilustracion.png" alt="ilu"></div>
+                <div class="oculta"> <img src="img/ilustracion2.png" alt="ilu2"></div>
+            </div>
+            <div class="grupo">
+                <div class="visible">
+                    <img src="img/cultura.png" alt="cartel">
+                </div>
+                <div class="oculta"> <img src="img/cultura2.png" alt="cultura2"></div>
+            </div>
         </div>
-        
+
     </main>
     <footer>
         <span class="end">trabajos &nbsp;<b>recientes</b> </span>

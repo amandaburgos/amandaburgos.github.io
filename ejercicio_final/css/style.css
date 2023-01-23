@@ -102,6 +102,18 @@ main {
     padding: 20px;
 }
 
+.oculta {
+    display: none;
+}
+
+.grupo:hover .visible {
+    display: none;
+}
+
+.grupo:hover .oculta {
+    display: block;
+}
+
 /* estilo footer */
 
 footer {
