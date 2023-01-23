@@ -133,6 +133,7 @@ footer {
 @media only screen and (max-width: 600px) {
     #logo {
         width: 50%;
+        margin-left: 70px;
     }
     .rrss {
         display: none;
